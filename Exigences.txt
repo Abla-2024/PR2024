@@ -4,8 +4,11 @@ Exigences fonctionnelles
 1.1-	Choisir le type de requête
 1.2-	Entrer la priorité 
 1.3-	Entrer une description de façon optionnelle
+
 2-	L'enregistrement d'une requête peut être effectué par n'importe quel employé.
+
 3-	Après enregistrement, le système doit acheminer automatiquement la requête au chef du département concerné.
+
 4-	La requête doit pouvoir être approuvée, annulée ou rejetée par le chef du département
 4.1- Si la requête est rejetée
      4.1.1- l'employé qui l'a enregistrée peut ajouter plus d’informations et la renvoyer
@@ -13,26 +16,30 @@ Exigences fonctionnelles
 4.2- Si la requête est approuvée, elle sera assignée au chef TI responsable de l'exécution.
 
 5-	Le chef TI assignera la requête à un membre de son département.
+
 6-	La personne chargée d'exécuter la tâche recevra une notification.
 6.1- Elle accepte ou rejette cette tâche avec justification.
 6.1.1- Si la tâche est rejetée, elle est retournée au chef TI
 6.1.2- Si la tâche est acceptée, elle est exécutée
 
 7-	Changement de l’état de la requête après exécution
+
 8-	Repérer et modifier une Requête
 8.1- Possibilité de repérer et de connaître l’état d’une requête une fois enregistrer
 8.2- Possibilité de modifier ou d’annuler une requête non approuvée par le chef de département
-      9- Authentification des utilisateurs pour accéder au système
 
-       10- Gérer les Types de Requêtes
+9- Authentification des utilisateurs pour accéder au système
+
+10- Gérer les Types de Requêtes
 10.1- Les types de requêtes sont prédéfinis dans le système
 10.2- Possibilité de créer un nouveau type, de le modifier, de le supprimer et de lister les types de requêtes existants.
 10.3- Informations associées à chaque type : nom, description, département responsable, employé responsable, temps maximal de service et coût approximatif.
 10.4- Si le type de requête a plusieurs sous-requêtes il y aura :
 10.4.1- Un type de requête principal avec les informations
 10.4.2- Une ou plusieurs sous-requêtes associées avec les informations
-    11- Gérer la Sécurité
-	11.1- Authentification des utilisateurs pour accéder au système
+
+11- Gérer la Sécurité
+11.1- Authentification des utilisateurs pour accéder au système
 11.2- Gestion des utilisateurs par groupes (Général, Administrateur, Modificateur, Exécuteur).
 11.2.1- Chaque groupe dispose d'un ensemble de privilèges qui permet l'accès à différentes options (créer une requête, modifier une requête, etc.).
 11.2.2- Chaque membre d'un groupe doit avoir le niveau d'authentification approprié.
@@ -42,10 +49,15 @@ Exigences non fonctionnelles
 12- Interagir avec des autres systèmes
 12.2- Le système doit interagir avec le système de gestion des ressources humaines pour obtenir des informations sur les employés.
 12.3- Le système doit interagir avec le système comptable pour contrôler les dépenses associées à l'exécution de chaque requête.
+
 13- Performance : le système doit pouvoir fonctionner en temps réel et couvrir les exigences 
+
 14- Sécurité : le système dit être sécuritaire quant à la protection des données des employées et des finances
+
 15- Fiabilité et disponibilité : le système doit être fiable et opérationnel à tout moment
+
 16- Conviviable et facile à utiliser : le système doit être facile à utiliser pour les utilisateurs
+
 17- Maintenable : le système doit pouvoir être maintenable et évolutif
 
 
