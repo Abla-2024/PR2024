@@ -56,9 +56,7 @@ Exigences non fonctionnelles
 
 15- Fiabilité et disponibilité : le système doit être fiable et opérationnel à tout moment
 
-16- Conviviable et facile à utiliser : le système doit être facile à utiliser pour les utilisateurs
 
-17- Maintenable : le système doit pouvoir être maintenable et évolutif
 
 
 
