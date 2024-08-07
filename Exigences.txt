@@ -3,7 +3,6 @@ Exigences fonctionnelles
 1-	Créer une requête 
 1.1-	Choisir le type de requête
 1.2-	Entrer la priorité 
-1.3-	Entrer une description de façon optionnelle
 
 2-	L'enregistrement d'une requête peut être effectué par n'importe quel employé.
 
@@ -46,6 +45,7 @@ Exigences fonctionnelles
 11.2.3- Ces groupes seront prédéfinis dans le système mais peuvent être modifiés ou un nouveau groupe peut être créé.
 
 Exigences non fonctionnelles
+
 12- Interagir avec des autres systèmes
 12.2- Le système doit interagir avec le système de gestion des ressources humaines pour obtenir des informations sur les employés.
 12.3- Le système doit interagir avec le système comptable pour contrôler les dépenses associées à l'exécution de chaque requête.
